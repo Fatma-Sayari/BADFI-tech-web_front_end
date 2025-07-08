@@ -17,12 +17,14 @@ a {
    display: none;
 }
 .card-category {
-   color: #D73953;
    color:var(--primary-color);
 }
 .section-tagline {
-  color: #D73953;
   color:var(--primary-color);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+   font-weight: var(--font-weight-bold);
 }
 :root {
   --primary-color: #d73953;
@@ -41,8 +43,5 @@ a {
   --font-weight-regular: 400;
   --font-weight-bold: 700;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-title);
-   font-weight: var(--font-weight-bold);
-}
+
 
