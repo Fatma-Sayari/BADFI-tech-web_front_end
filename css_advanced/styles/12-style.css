@@ -19,13 +19,31 @@ a  {
    display: none;
 }
 .card-category {
-   color: #D73953;
    color:var(--primary-color);
 }
-.section-tagline {
-  color: #D73953;
-  color:var(--primary-color);
+
+.section-header{
+  text-align: var(--section-header-align);
 }
+.section-title{
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-xx-large);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-title-margin);
+  color: var(--section-title-color);
+}
+
+ .section-tagline{
+	color: var(--color-primary);
+  font-family: var(--font-family-title);
+  text-transform: var(--section-tagline-transform);
+  font-weight: var(--font-weight-bold);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+   font-weight: var(--font-weight-bold);
+}
+ 
 :root {
   --primary-color: #d73953;
   --color-black: #090909;
@@ -51,17 +69,10 @@ a  {
   --section-title-color: var(--color-black);
  
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-title);
-   font-weight: var(--font-weight-bold);
-}
-.section-tagline {
-  text-align: var(--section-header-align);
-  font-family: var(--font-family-title);
-  text-transform: var(--section-tagline-transform);
-  font-weight: var(--font-weight-bold);
-}
-.section-tagline {
- color: var(--primary-color);
-}
+
+
+
+ 
+
+
 
